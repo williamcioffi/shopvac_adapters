@@ -6,7 +6,7 @@ overlap = 0.2;
 
 vac_od1 = 49.5/2;
 vac_od2 = 48.5/2;
-vac_thick = 2.5;
+vac_thick = 2;
 
 adp_od1 = 58.5/2;
 adp_od2 = 57.5/2;
@@ -34,7 +34,7 @@ translate([0, 0, joint_length - overlap]) cylinder(joint_length + overlap, vac_o
 // fits on saw
 translate([0, 0, joint_length*2 - overlap]) cylinder(joint_length + overlap*2, adp_od1 - vac_thick, adp_od2 - vac_thick, center = true);
 }
-
+//
 difference() {
     outer();
     inner();
