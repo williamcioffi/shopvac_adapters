@@ -4,12 +4,12 @@ joint_length = 32;
 overlap = 0.2;
 
 
-vac_od1 = 49.5;
-vac_od2 = 48.5;
+vac_od1 = 49.5/2;
+vac_od2 = 48.5/2;
 vac_thick = 2.5;
 
-adp_od1 = 58.5;
-adp_od2 = 57.5;
+adp_od1 = 58.5/2;
+adp_od2 = 57.5/2;
 
 
 
