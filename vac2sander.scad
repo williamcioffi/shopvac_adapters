@@ -15,8 +15,8 @@ od1 = id1 + 2*wallthickness;
 od2 = id2 + 2*wallthickness;
 
 // vacuum dims
-vac_od1 = 49.5/2;
-vac_od2 = 48.5/2;
+vac_od1 = 50/2;
+vac_od2 = 49/2;
 
 module tube() {
 difference() {
